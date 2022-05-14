@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-kEjbQP itiNpX"
+  >
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <span
+        class="sc-iBPTik bAqRBC material-icons"
+        color="contrast"
+      >
+        first_page
+      </span>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <span
+        class="sc-iBPTik bAqRBC material-icons"
+        color="contrast"
+      >
+        chevron_left
+      </span>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        1
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        2
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        3
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE czXxsN"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        4
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        5
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE txkfq"
+      color="contrast"
+    >
+      <span
+        class="sc-iBPTik bAqRBC material-icons"
+        color="contrast"
+      >
+        more_horiz
+      </span>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <p
+        class="sc-bdfBQB iDqXfG"
+        color="contrast"
+      >
+        13
+      </p>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <span
+        class="sc-iBPTik bAqRBC material-icons"
+        color="contrast"
+      >
+        chevron_right
+      </span>
+    </button>
+    <button
+      class="sc-jrAFXE jqYNa-D"
+    >
+      <span
+        class="sc-iBPTik bAqRBC material-icons"
+        color="contrast"
+      >
+        last_page
+      </span>
+    </button>
+  </div>
+</DocumentFragment>
+`;

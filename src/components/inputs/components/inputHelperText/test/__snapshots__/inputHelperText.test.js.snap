@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputHelperText /> should match snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="sc-iBPTik kUzCRA"
+  >
+    <p
+      class="sc-bdfBQB AqsHc"
+      color="secondary"
+    >
+      Input Helper Text
+    </p>
+  </span>
+</DocumentFragment>
+`;

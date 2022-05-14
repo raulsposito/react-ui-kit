@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputContainer /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-jrAFXE ilTBPT"
+  >
+    <input
+      class="sc-pGacB fcysIK"
+      name="inputContainer"
+      placeholder="input placeholder"
+      type="text"
+      value=""
+    />
+  </div>
+</DocumentFragment>
+`;

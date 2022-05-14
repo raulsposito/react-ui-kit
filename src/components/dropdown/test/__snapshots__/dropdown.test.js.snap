@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dropdown /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsTEea iQNNfU css-dyr6gj-container"
+  >
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      class=" css-1bpxup0-control"
+    >
+      <div
+        class=" css-x1hhe8-ValueContainer"
+      >
+        <div
+          class=" css-ogw9ai-placeholder"
+        >
+          Dropdown Placeholder
+        </div>
+        <input
+          aria-autocomplete="list"
+          class="css-wmatm6-dummyInput-DummyInput"
+          id="react-select-2-input"
+          readonly=""
+          tabindex="0"
+          value=""
+        />
+      </div>
+      <div
+        class=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <span
+          class=" css-43ykx9-indicatorSeparator"
+        />
+        <div
+          aria-hidden="true"
+          class=" css-1e4t2s-indicatorContainer"
+        >
+          <span
+            class="sc-bdfBQB VgOlj material-icons"
+            color="system"
+          >
+            arrow_drop_down
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

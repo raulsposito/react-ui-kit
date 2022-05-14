@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextField /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-pGacB dHCwQs"
+  >
+    <label
+      class="sc-kEjbQP egbqa-d"
+      for="txtMock"
+    >
+      <p
+        class="sc-bdfBQB bdAWqY"
+        color="contrast"
+      >
+        TextField Label 
+      </p>
+    </label>
+    <div
+      class="sc-crrszt bmxvWD"
+    >
+      <input
+        class="sc-iqHYmW fVDaxC"
+        name="txtMock"
+        placeholder="textfField placeholder"
+        type="text"
+        value=""
+      />
+    </div>
+    <span
+      class="sc-dQoVA xwLTc"
+    >
+      <p
+        class="sc-bdfBQB bdAWqY"
+        color="contrast"
+      >
+        Helper Text
+      </p>
+    </span>
+  </div>
+</DocumentFragment>
+`;

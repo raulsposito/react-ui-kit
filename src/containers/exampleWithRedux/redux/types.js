@@ -1,0 +1,13 @@
+export const key = 'REDUX_EXAMPLE'
+
+export const STATUS = {
+  START_LOAD: 'REDUX_EXAMPLE/STATUS/START_LOAD',
+  END_LOAD: 'REDUX_EXAMPLE/STATUS/END_LOAD'
+}
+
+export const VALUE = {
+  SET: 'REDUX_EXAMPLE/VALUE/SET',
+  CLEAR: 'REDUX_EXAMPLE/VALUE/SET'
+}
+
+export default key

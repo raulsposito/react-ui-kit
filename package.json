@@ -1,0 +1,102 @@
+{
+  "name": "ronda",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.13.16",
+    "@craco/craco": "^6.1.1",
+    "@jest/globals": "^26.6.2",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "camelize": "^1.0.0",
+    "connected-react-router": "^6.9.1",
+    "history": "^4.10.1",
+    "hoist-non-react-statics": "^3.3.2",
+    "humps": "^2.0.1",
+    "immer": "^9.0.1",
+    "invariant": "^2.2.4",
+    "jest-styled-components": "^7.0.4",
+    "lodash": "^4.17.21",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.1.1",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-injectors": "^1.3.0",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.0.0",
+    "styled-components": "^5.2.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "test:debug": "craco --inspect-brk test --runInBand --no-cache",
+    "test:coverage": "craco test --coverage --watchAll",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:css": "stylelint ./src/**/*.js",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "husky": "^6.0.0",
+    "react-test-renderer": "^17.0.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended": "^5.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "typescript": "^4.2.4"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    },
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!<rootDir>/src/global/env.js",
+      "!**/constants.js",
+      "!<rootDir>/src/index.js",
+      "!<rootDir>/src/reportWebVitals.js",
+      "!<rootDir>/src/axios/**"
+    ],
+    "moduleNameMapper": {
+      "^@axios/(.*)$": "<rootDir>/src/axios/$1",
+      "^@components/(.*)$": "<rootDir>/src/components/$1",
+      "^@containers/(.*)$": "<rootDir>/src/containers/$1",
+      "^@global/(.*)$": "<rootDir>/src/global/$1",
+      "^@redux/(.*)$": "<rootDir>/src/redux/$1",
+      "^@routes/(.*)$": "<rootDir>/src/routes/$1",
+      "^@utils/(.*)$": "<rootDir>/src/utils/$1",
+      "^@messages/(.*)$": "<rootDir>/src/messages/$1"
+    }
+  }
+}

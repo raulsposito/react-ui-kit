@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> should match snapshot 1`] = `
+<DocumentFragment>
+  <h1
+    class="sc-bdfBQB kVfTNs"
+  >
+    Goku
+  </h1>
+</DocumentFragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> should match snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="sc-bdfBQB iUuvkC material-icons"
+  >
+    face
+  </span>
+</DocumentFragment>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputAreaContainer /> should match snapshot 1`] = `
+<DocumentFragment>
+  <textarea
+    class="sc-bdfBQB HkEli"
+    name="inputAreaContainer"
+    placeholder="textarea placeholder"
+    rows="50"
+  >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  </textarea>
+</DocumentFragment>
+`;

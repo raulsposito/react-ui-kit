@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdfBQB TpSNq"
+  >
+    <label
+      class="sc-pGacB liSCmd"
+      for="txtMock"
+    >
+      <p
+        class="sc-dlfnuX cALFVY"
+        color="contrast"
+      >
+        TextArea Label 
+      </p>
+    </label>
+    <textarea
+      class="sc-kstqJO iORDST"
+      name="txtMock"
+      placeholder="textArea placeholder"
+      rows="50"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </textarea>
+    <div
+      class="sc-gsTEea hAVqsp"
+    >
+      <span
+        class="sc-bqyKOL fvRcQX"
+      >
+        <p
+          class="sc-dlfnuX REUaC"
+          color="system"
+        >
+          Cantidad de caracteres: 56 / undefined
+        </p>
+      </span>
+      <span
+        class="sc-iqHYmW fBDEii"
+      >
+        <p
+          class="sc-dlfnuX cALFVY"
+          color="contrast"
+        >
+          Helper Text
+        </p>
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;

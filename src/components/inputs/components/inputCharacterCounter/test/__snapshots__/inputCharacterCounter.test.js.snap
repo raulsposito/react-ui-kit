@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputCharacterCounter /> should match snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="sc-iBPTik kUzCRA"
+  >
+    <p
+      class="sc-bdfBQB bBjZtu"
+      color="system"
+    >
+      Cantidad de caracteres: 45 / 50
+    </p>
+  </span>
+</DocumentFragment>
+`;

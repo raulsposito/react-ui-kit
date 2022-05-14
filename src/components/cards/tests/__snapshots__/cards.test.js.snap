@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-iqHYmW imSGda"
+    type="horizontal"
+  >
+    <div
+      class="sc-fodVek iTNsyf"
+    />
+    <div
+      class="sc-crrszt ksQioq"
+      type="horizontal"
+    >
+      <div
+        class="sc-dQoVA heglCh"
+      >
+        <p
+          class="sc-bdfBQB bRbgLm"
+        >
+          overline
+        </p>
+        <h5
+          class="sc-jSgvzq bCOdOp"
+        >
+          title
+        </h5>
+        <div
+          class="sc-fFucqa bDgeNF"
+        >
+          <p
+            class="sc-bdfBQB bnScRT"
+          >
+            content
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
