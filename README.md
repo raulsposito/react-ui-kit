@@ -1,3 +1,13 @@
+# This project is a complete & performant UI kit
+
+## Made with functional React and Styled Components
+
+You will find: Alerts, Badges, Buttons, Line-Buttons, Cards, Dropdowns, Icons, Inputs, Modals, Pagination, Texts, etc.
+
+In 'Containers' you will also find the components displayed for practical usage.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
